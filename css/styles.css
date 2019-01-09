@@ -1,0 +1,51 @@
+p.cupcake2{
+  background-image:
+  url("img/cupcake2.jpeg");
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+
+}
+.one{
+  grid-column: 1;
+  grid-row: 1;
+}
+.two{
+  grid-column: 2;
+  grid-row: 1;
+  color: pink;
+}
+.three{
+  grid-column: 3;
+  grid-row: 1;
+}
+
+body {
+  text-align: center;
+}
+
+.flashy{
+  color: red;
+  font-style: italic;
+}
+
+p{
+  color: red;
+  font-style: italic;
+}
+
+.best{
+  box-shadow:10px 10px 10px pink;
+  border: 5px solid pink;
+
+}
+.centered {
+  position: static;
+  left: 0;
+  top: 65%;
+  width: 100%;
+  text-align: center;
+  font-size: 78px;
+}
